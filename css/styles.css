@@ -214,7 +214,6 @@ background-image: linear-gradient(
     rgba(70, 71, 85, 0.4))
   , url(../images/background.jpg);
   background-color: #2F303A;
-   outline: 1px solid tomato;
 }
 
 .title .container{
@@ -440,8 +439,15 @@ display: flex;
 justify-content: space-between;
 margin-left: 32px;
 margin-right: 32px;
-mb30
+}
 
+.social-list-link:hover .social-list-icon,
+.social-list-link:focus .social-list-icon{
+fill: #2196F3;
+}
+
+.social-list-link:hover{
+color: #2196F3;
 }
 
 .social-list-icon{
@@ -527,6 +533,7 @@ border-radius: 4px;
 .clients-link:focus .clients-icon{
 fill: #2196F3;
 }
+
 .clients-link:hover{
 border-color:  #2196F3;
 }
@@ -543,6 +550,30 @@ margin-right: 30px;
 width:44px;
 height:49px;
 fill: #AFB1B8;
+}
+.logo-2{
+width: 40px;
+height: 52px;
+}
+
+.logo-3{
+width: 41px;
+height: 42px;
+}
+
+.logo-4{
+width: 79px;
+height: 42px;
+}
+
+.logo-5{
+width: 59px;
+height: 47px;
+}
+
+.logo-6{
+width: 88px;
+height: 45px;
 }
 /* ========End stabbil clients============ */
 
