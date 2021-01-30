@@ -443,11 +443,13 @@ margin-right: 32px;
 
 .social-list-link:hover .social-list-icon,
 .social-list-link:focus .social-list-icon{
-fill: #2196F3;
+fill: #ffffff;
 }
 
-.social-list-link:hover{
-color: #2196F3;
+.social-list-link:hover,
+.social-list-link:focus{
+background-color: #2196F3;
+
 }
 
 .social-list-icon{
@@ -532,7 +534,7 @@ border-radius: 4px;
 
 .clients-link:hover .clients-icon,
 .clients-link:focus .clients-icon{
-fill: #2196F3;
+fill: #2196f3;
 }
 
 .clients-link:hover{
@@ -581,11 +583,14 @@ height: 45px;
 
 /* ========Footer============ */
 .footer{
+display: flex;
 background-color: #2F303A;
+width: 1600px;
 height: 252px;
 padding-top: 60px;
 padding-bottom: 60px;
 }
+
 .footer .container{
 width: 1230px;
 height: 132px;
@@ -663,18 +668,23 @@ color: rgba(255, 255, 255, 0.6);
  }
 
  .social-links{
-padding-top: 72px;
+display: flex;
+/* padding-top: 72px; */
 padding-bottom: 100px;
 padding-left: 70px;
 margin-right: auto;
 margin-left: auto;
  }
+
 .social-links.container{
+display: flex;
 width: 200px;
 height: 80px;
 }
 
 .call{
+margin-bottom: 20px;
+
 font-weight: bold;
 font-size: 14px;
 line-height: 1.14;
@@ -692,7 +702,15 @@ margin-bottom: 30px;
 background-color: white;
 border-radius: 50%;
 }
+.social-list-footer{
+margin-right: auto;
+margin-left: auto;
+justify-content: start;
+}
 
+.social-list-footer.social-list-item:not(:last-child){
+margin-right: 10px;
+}
  /* ========End Features============ */
 
  /* ========Portfolio list button======= */
