@@ -692,15 +692,20 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #FFFFFF;
 }
-.social-list-link.social-links{
+.social-list-footer a{
 display: flex;
 justify-content: center;
 align-items: center;
 width: 44px;
 height: 44px;
 margin-bottom: 30px;
-background-color: white;
+fill: #FFFFFF;
+background-color:rgba(255, 255, 255, 0.1);;
 border-radius: 50%;
+}
+
+.social-list-footer svg{
+fill:inherit
 }
 .social-list-footer{
 margin-right: auto;
@@ -708,10 +713,12 @@ margin-left: auto;
 justify-content: start;
 }
 
-.social-list-footer.social-list-item:not(:last-child){
+.social-list-footer>.social-list-item:not(:last-child){
 margin-right: 10px;
 }
- /* ========End Features============ */
+.social-list-link.
+
+/* ========End Features============ */
 
  /* ========Portfolio list button======= */
 .section-buttons{
