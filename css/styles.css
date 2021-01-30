@@ -491,17 +491,13 @@ background-color: #FFFFFF;
 
 .clients.container{
 display: flex;
-
 height: 370px;
 padding-left: 15px;
 padding-right: 15px;
 margin-left:auto;
 margin-right: auto;
-
-
-padding-left: 15px;
-padding-right: 15px;
 }
+
 .clients-list{
     display: flex;
 }
@@ -589,13 +585,20 @@ width: 1600px;
 height: 252px;
 padding-top: 60px;
 padding-bottom: 60px;
+margin-left: auto;
+margin-right: auto;
 }
 
+.footer:not(:last-child){
+    padding-left: 70px;
+}
 .footer .container{
+margin-right: auto;
+margin-left: auto;
 width: 1230px;
 height: 132px;
-margin: auto;
-padding-left: 15px;
+outline: 1px solid tomato;
+
 }
 
 .footer .web{
@@ -632,7 +635,6 @@ color: #fff;
     color: teal;
 }
 .footer-address{
-/* padding-top: 20px; */
 padding-bottom: 9px;
 font-weight: normal;
 font-size: 14px;
@@ -651,7 +653,6 @@ color: rgba(255, 255, 255, 0.6);
  }
 
  .footer-tel{
-/* padding-bottom: 60px; */
 font-weight: normal;
 font-size: 14px;
 line-height: 1.714;
@@ -684,6 +685,7 @@ height: 80px;
 
 .call{
 margin-bottom: 20px;
+margin-top: 15px;
 
 font-weight: bold;
 font-size: 14px;
@@ -692,13 +694,13 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #FFFFFF;
 }
+
 .social-list-footer a{
 display: flex;
 justify-content: center;
 align-items: center;
 width: 44px;
 height: 44px;
-margin-bottom: 30px;
 fill: #FFFFFF;
 background-color:rgba(255, 255, 255, 0.1);;
 border-radius: 50%;
@@ -716,7 +718,6 @@ justify-content: start;
 .social-list-footer>.social-list-item:not(:last-child){
 margin-right: 10px;
 }
-.social-list-link.
 
 /* ========End Features============ */
 
@@ -724,7 +725,6 @@ margin-right: 10px;
 .section-buttons{
 padding-top: 94px;
 padding-bottom: 94px;
-
 }
 
 .list-button{
@@ -737,8 +737,7 @@ margin-left: auto;
 margin-right: auto;
 }
 .list-button .item+.item{
-    margin-left: 8px;
-
+margin-left: 8px;
 }
 
  .button{
@@ -754,11 +753,7 @@ color: #212121;
 .all-button{
 min-width: 73px;
 height: 38px;
-background: #2196F3;
-/* shadow-middle */
-
-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-border-radius: 4px;
+background: #F5F4FA;
 }
 
 .all{
@@ -766,15 +761,22 @@ margin: 6px 22px;
 min-width: 29px;
 height: 26px;
 border: none;
-background: #2196F3;
-color: #ffffff;
-
+background: transparent;
 }
-.all:hover, .all:focus,
-.all:active{
+
+.all-button:hover{
+    background: #2196F3;
+/* shadow-middle */
+
 box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 border-radius: 4px;
 }
+
+.item:hover .button{
+background: #2196F3;
+color:#ffffff;
+}
+
 
 .veb{
 min-width: 84px;
@@ -791,6 +793,10 @@ border-radius: 4px solid rgb(255, 255, 255);
 }
 .veb-button:hover{
 background: #2196F3;
+/* shadow-middle */
+
+box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+border-radius: 4px;
 }
 
 .soft{
@@ -808,6 +814,10 @@ border-radius: 4px solid rgb(255, 255, 255);
 }
 .soft-button:hover{
 background: #2196F3;
+/* shadow-middle */
+
+box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+border-radius: 4px;
 }
 .design{
 min-width: 59px;
@@ -824,6 +834,10 @@ border-radius: 4px solid rgb(255, 255, 255);
 }
 .design-button:hover{
 background: #2196F3;
+/* shadow-middle */
+
+box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+border-radius: 4px;
 }
 
 .marketing{
@@ -841,6 +855,10 @@ border-radius: 4px solid rgb(255, 255, 255);
 }
 .marketing-button:hover{
 background: #2196F3;
+/* shadow-middle */
+
+box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+border-radius: 4px;
 }
 .button:hover, .button:focus,
 .button:active{
@@ -887,6 +905,11 @@ margin-right: 30px;
  .progects .item:nth-last-child(-n+7){
      margin-bottom: 30px;
  }
+
+ .progects:hover .item{
+box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+ }
+
 .progects-title{
 padding-bottom: 4px;
 min-width: 322px;
