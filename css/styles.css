@@ -581,12 +581,9 @@ height: 45px;
 .footer{
 display: flex;
 background-color: #2F303A;
-width: 1600px;
-height: 252px;
 padding-top: 60px;
 padding-bottom: 60px;
-margin-left: auto;
-margin-right: auto;
+margin: 0 auto;
 }
 
 .footer:not(:last-child){
@@ -669,7 +666,7 @@ color: rgba(255, 255, 255, 0.6);
  .social-links{
 display: flex;
 /* padding-top: 72px; */
-padding-bottom: 100px;
+/* padding-bottom: 100px; */
 padding-left: 70px;
 margin-right: auto;
 margin-left: auto;
@@ -739,125 +736,33 @@ margin-left: 8px;
 }
 
  .button{
+padding: 6px 22px;
 font-family: Roboto, sans-serif;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.625;
+align-content: center;
+align-self: center;
 text-align: center;
 letter-spacing: 0.03em;
 color: #212121;
-}
-
-.all-button{
-min-width: 73px;
-height: 38px;
 background: #F5F4FA;
-}
-
-.all{
-margin: 6px 22px;
-min-width: 29px;
-height: 26px;
+border-radius: 4px solid rgb(255, 255, 255);
 border: none;
-background: transparent;
 }
 
-.all-button:hover{
-    background: #2196F3;
-/* shadow-middle */
 
-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-border-radius: 4px;
-}
 
-.item:hover .button{
+.item:hover .button,
+.item:focus .button{
 background: #2196F3;
 color:#ffffff;
-}
-
-
-.veb{
-min-width: 84px;
-margin: 6px 15px;
-height: 26px;
-border: none;
-background: transparent;
-}
-.veb-button{
-width: 128px;
-height: 38px;
-background: #F5F4FA;
-border-radius: 4px solid rgb(255, 255, 255);
-}
-.veb-button:hover{
-background: #2196F3;
-/* shadow-middle */
-
 box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 border-radius: 4px;
 }
 
-.soft{
-min-width: 101px;
-height: 26px;
-margin: 6px 22px;
-border: none;
-background: transparent;
-}
-.soft-button{
-min-width: 135px;
-height: 38px;
-background: #F5F4FA;
-border-radius: 4px solid rgb(255, 255, 255);
-}
-.soft-button:hover{
-background: #2196F3;
-/* shadow-middle */
 
-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-border-radius: 4px;
-}
-.design{
-min-width: 59px;
-height: 26px;
-margin: 6px 22px;
-border: none;
-background: transparent;
-}
-.design-button{
-min-width: 103px;
-height: 38px;
-background: #F5F4FA;
-border-radius: 4px solid rgb(255, 255, 255);
-}
-.design-button:hover{
-background: #2196F3;
-/* shadow-middle */
 
-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-border-radius: 4px;
-}
-
-.marketing{
-min-width: 86px;
-height: 26px;
-margin: 6px 22px;
-border: none;
-background: transparent;
-}
-.marketing-button{
-min-width: 130px;
-height: 38px;
-background: #F5F4FA;
-border-radius: 4px solid rgb(255, 255, 255);
-}
-.marketing-button:hover{
-background: #2196F3;
-/* shadow-middle */
-
-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-border-radius: 4px;
-}
 .button:hover, .button:focus,
 .button:active{
 color: #FFFFFF;
@@ -904,7 +809,8 @@ margin-right: 30px;
      margin-bottom: 30px;
  }
 
- .progects:hover .item{
+ .progects:hover .item,
+ .progects:focus .item{
 box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
  }
 
