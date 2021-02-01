@@ -477,12 +477,8 @@ border-radius: 0px 0px 4px 4px;
 /* ========EndWhat we do============ */
 /* ========stabbil clients============ */
 .clients{
-/* width: 1600px; */
-width: 1200px;
 padding-top: 94px;
 padding-bottom: 94px;
-margin-left:auto;
-margin-right: auto;
 background-color: #FFFFFF;
 }
 
