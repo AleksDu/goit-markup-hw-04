@@ -777,11 +777,11 @@ height: 404px;
 background: #FFFFFF;
 border: 1px solid #EEEEEE;
 box-sizing: border-box;
-margin-right: 30px;
+/* margin-right: 30px; */
 
  }
 
- .progects .item:nth-child(n3){
+ .progects .item:not:nth-child(2n+1){
 margin-right: 30px;
  }
 
