@@ -205,7 +205,7 @@ fill: var(--prymary-text-color);
 .title>.container{
     display: block;
     /* align-items: baseline; */
-    width: 1230px;
+    width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
@@ -380,7 +380,7 @@ background: #F5F4FA;
 .our-team>.container{
     display: block;
     /* align-items: baseline; */
-    width: 1230px;
+    width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
@@ -485,7 +485,7 @@ background-color: #FFFFFF;
 .clients>.container{
     display: block;
     /* align-items: baseline; */
-    width: 1230px;
+    width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
@@ -681,9 +681,7 @@ border-radius: 50%;
 fill:inherit
 }
 .social-list-footer{
-margin-right: auto;
 margin-left: auto;
-justify-content: start;
 }
 
 .social-list-footer>.social-list-item:not(:last-child){
@@ -701,12 +699,8 @@ padding-bottom: 94px;
 .list-button{
 display: flex;
 justify-content: center;
-width: 1230px;
-padding-left: 15px;
-padding-right: 15px;
-margin-left: auto;
-margin-right: auto;
 }
+
 .list-button .item+.item{
 margin-left: 8px;
 }
@@ -756,7 +750,7 @@ border-radius: 4px;
 }
 
  .progects{
-     width: 1230px;
+     width: 1200px;
      padding-top: 50px;
      padding-left: 15px;
      padding-right: 15px;
